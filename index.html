@@ -9,6 +9,7 @@
     <h1>This is a Heading</h1>
     <p><b>This</b> is a paragraph.</p>
     <h1>สวัสดีครับ</h1>
+    
     <table>
         <thead>
             <tr>
@@ -21,14 +22,57 @@
                 <td>1</td>
                 <td>A</td>
             </tr>
+            <tr>
+                <td colspan="2">
+                    2
+                </td>
+                <td>B</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td>2</td>
-                <td>B</td>
+                <td row colspan="2">
+                    1</td>
+                <td>A</td>
             </tr>
         </tfoot>
     </table>
+    <form action="#">
+        <table>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td><input type="date"></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>input datetime</td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td> input raido</td>
+                <td>
+                    <input id = "radio_a" 
+                    type="radio" 
+                    name="same_radio">
+                    <label for="">Radio A</label>
+                    <input id = "radio_b"
+                    type="radio"
+                    name="same_radio">
+                    <label for="">Radio B</label>
+                </td>
+            </tr>
+            
+        </table>
+        <input type="text"/>
+        <input type="date">
+        <input type="datetime-local">
+
+
+
+    </form>
 
 </body>
 </html>
