@@ -1,0 +1,12 @@
+.box{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 5px ;
+    padding-top: 10px;
+    margin: 50px 25px;
+}
+
+.box :hover{
+    background-color: palevioletred;
+}
