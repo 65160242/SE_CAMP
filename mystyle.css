@@ -1,12 +1,48 @@
 .box{
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    border: 5px ;
-    padding-top: 10px;
-    margin: 50px 25px;
+    background-image: url(https://i.pinimg.com/originals/8f/09/34/8f09345a8d4155dc18520d000a532168.gif);    
+    width: 540px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #9d9696;
+    border: 5px solid rgb(140, 224, 247);
+    border-radius: 25px;
+    z-index: 1;
+    position: absolute;
 }
 
-.box :hover{
-    background-color: palevioletred;
+.Title{
+    text-align: center;
+    margin: auto;
+}
+
+.coconut{
+    background-image: url(https://i.pinimg.com/originals/2c/64/02/2c64028d64888e42c18003e989fa9ca0.gif);
+    top: 20%;
+    left: 67%;
+}
+.coconut{
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.beach{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fth%2Fpng-bziuo&psig=AOvVaw0toUmtU5gwNcJANRAekZ_O&ust=1703101032270000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDF-vSfnIMDFQAAAAAdAAAAABAc);
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.background{
+    background-image: url(https://i.pinimg.com/564x/92/0f/fa/920ffa744e88be2d505e855f5221f7ef.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    z-index: 0;
 }
