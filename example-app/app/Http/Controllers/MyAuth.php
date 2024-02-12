@@ -13,7 +13,7 @@ class MyAuth extends Controller
     }
  
     function login_process(Request $req){
-        $reg_
+    
     }
  
     function logout_process(){

@@ -3,6 +3,31 @@
 @section('title', 'Titles')
 
 @section('content')
+<style>
+   .logout {
+      display: inline-block;
+      padding: 5px 10px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      background-color: red;
+      color: #fff;
+      border: 1px solid red;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family : "Helvetica";
+      font-weight : bold;
+    }
+
+    .login:hover {
+      background-color: #45a049;
+    }
+
+    .leftButton {
+        display: inline-block;
+        float: right;
+    }
+ </style>
     <!-- Content Header (Page header) -->
     <div class="content-header">
         <div class="container-fluid">
@@ -112,4 +137,7 @@
         </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
+   <div class="leftButton">
+        <button class="logout">ออกจากระบบ</button>
+   </div>
 @endsection
